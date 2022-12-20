@@ -1,0 +1,99 @@
+body{
+    text-align: center;   
+    font-family: sans-serif; 
+}
+
+/* Sign In Box */
+#login{
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: lightgray;
+    margin-left: 75vh;
+    margin-right: 75vh;
+}
+
+#login p{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#need-help{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+#login{
+    text-align: left;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+form input, form button{
+    width: 100%;
+}
+
+form input{
+    margin-top: 1vh;
+}
+
+#parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+form button{
+    background-color: #ef9649;
+    border: none;
+    border-radius: 3px;
+}
+
+
+/* New to Amazon */
+.line{
+    content: "";
+    background: gray;
+    display: block;
+    width:13vh;
+    height: 1px;
+    margin-top: 2.3vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+.new-user{
+    display: flex;
+    justify-content: center;
+}
+
+#new-user button{
+    width: 21%;
+    border-style: solid;
+    border-radius: 3px;
+    background-color: #e0e2e6;
+    margin-bottom: 5vh;
+}
+
+/* Footer */
+#links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#links a{
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+/* Styling for <a> tags */
+a {
+    text-decoration: none;
+    color: #4596ff;
+}
+
+a:hover{
+    color: #f1882c;
+}
